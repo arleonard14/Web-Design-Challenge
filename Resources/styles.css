@@ -23,7 +23,7 @@ img {
         width: auto\9; /* ie8 */
     }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 480px) {
     .navbar li {
       padding: 10px;
     }
