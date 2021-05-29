@@ -22,8 +22,8 @@ img {
         height: auto;
         width: auto\9; /* ie8 */
     }
-    
-@media (max-width: 480px) {
+
+@media (max-width: 600px) {
     .navbar li {
       padding: 10px;
     }
