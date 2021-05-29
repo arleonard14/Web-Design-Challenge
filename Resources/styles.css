@@ -1,0 +1,46 @@
+body
+{background-color: whitesmoke;}
+
+.navbar {
+    padding: 10px;
+    background: whitesmoke;
+  }
+
+.box {
+    background-color: white;
+    padding: 10px;
+  }
+
+h2 {
+    background-color: darkcyan;
+    color: white;
+    text-transform: uppercase;
+}
+
+img {
+        max-width: 100%;
+        height: auto;
+        width: auto\9; /* ie8 */
+    }
+    
+@media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+  
+    .post {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+    .navbar ul {
+      visibility: hidden;
+    }
+  
+    #nav-select {
+      visibility: visible;
+    }
+
+    
+  }
+  

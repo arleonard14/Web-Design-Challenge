@@ -3,7 +3,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Latitude vs. X</title>
+  <title>Comparison</title>
 
   <!-- Bring in our bootstrap and css stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -30,7 +30,7 @@
                   <a class="dropdown-item" href="../Web-Design-Challenge/WindSpeed.html">Wind Speed</a>
                 </div>
               </li>
-            <li class="nav-item">
+              <li class="nav-item">
                 <a class="nav-link" href="../Web-Design-Challenge/Comparison.html">Comparison</a>
             </li>
             <li class="nav-item">
@@ -44,30 +44,34 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-12">
         <div class="box">
-        <h2>Latitude vs. X</h2>
-        <img src="Resources/assets/images/Fig1.png" alt ="Max Temp" width="400px" height="250px" align="left" />
-        <p>
-           The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-        <p>
-            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
-        </p>
-      </div> </div>
+        <h2>Comparison:Latitude vs. X</h2>
+          Click any plot to get an in depth analysis.</p>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6"
+                  <div class="box">
+                    <h3>Latitude vs. Max Temp</h3>
+                      <a href="../Web-Design-Challenge/MaxTemp.html"><img src="Resources/assets/images/Fig1.png" alt="Max Temp" width="500" height="300"></a><br>
+                    <h3>Latitude vs. Cloudiness</h3>
+                    <a href="../Web-Design-Challenge/Cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="Cloudiness" width="500" height="300"></a><br>
+
+                </div>
+                <div class="col-md-6"
+                <div class="box">
+                  <h3>Latitude vs. Humidity</h3>
+                    <a href="../Web-Design-Challenge/Humidity.html"><img src="Resources/assets/images/Fig2.png" alt="Max Temp" width="500" height="300"></a><br>
+                  <h3>Latitude vs. Wind Speed</h3>
+                  <a href="../Web-Design-Challenge/WindSpeed.html"><img src="Resources/assets/images/Fig4.png" alt="Cloudiness" width="500" height="300"></a><br>
 
 
-      <div class="col-md-4">
-        <div class="box">
-            <h2>Visualizations</h2>
-                <body>
-                    <a href="../Web-Design-Challenge/MaxTemp.html"><img src="Resources/assets/images/Fig1.png" width=150px height="100px" alt="Max Temp"></a>
-                    <a href="../Web-Design-Challenge/Humidity.html"><img src="Resources/assets/images/Fig2.png" width=150px height="100px" alt="Humidity"></a> </br>
-                    <a href="../Web-Design-Challenge/Cloudiness.html"><img src="Resources/assets/images/Fig3.png" width=150px height="100px" alt="Cloudiness"></a>
-                    <a href="../Web-Design-Challenge/WindSpeed.html"><img src="Resources/assets/images/Fig4.png" width=150px height="100px" alt="WindSpeed"></a>
-                </body>
+              </div>
             </div>
+          </div>
         </div>
     </div>
+  </div>
 </div>
 
 
